@@ -1,0 +1,96 @@
+body{
+    background-color: blanchedalmond;
+    background-image: url(img/noise.png)
+}
+
+
+.header{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    margin-left: 250px;
+    
+
+}
+.navigation a{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: rgb(94, 60, 32);
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 250px;
+    padding-right: 250px;
+
+
+    align-items: center;
+
+
+    background-image: url(img/paw.png);
+    background-repeat: repeat-y;
+}
+.about-images img{
+    width: 100%;
+}
+.about-images{
+    display: grid;
+    gap: 50px;
+    grid-template-rows: 250px 250px 250px;
+    grid-template-areas: 'img1 img2'
+                         'img3 img2'
+                         'img3 img4';
+
+}
+
+.about-images img:nth-child(1){
+    grid-area: img1;
+}
+.about-images img:nth-child(2){
+    grid-area: img2;
+}
+.about-images img:nth-child(3){
+    grid-area: img3;
+}
+.about-images img:nth-child(4){
+    grid-area: img4;
+}
+.about-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-text{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: large;
+}
+.about-text P:nth-child(1){
+    color: rgb(155, 117, 67);    
+}
+.about-text P:nth-child(3){
+    color: rgb(155, 117, 67);
+}
+.about-text p:nth-child(1){
+    color: rgb(94, 60, 32);
+}
+
+
+.about-text a{
+    background-color: peru;
+    background-image: url(img/noise.png);
+    color: rgb(94, 60, 32);
+    text-decoration: none;
+    padding: 5px 40px;
+    border-radius: 5px;
+
+}
+
+
